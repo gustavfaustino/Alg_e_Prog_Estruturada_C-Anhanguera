@@ -8,5 +8,21 @@ int main() { //função principal do programa, onde a execução começa.
     printf("Digite um número inteiro: "); //função que imprime uma mensagem na tela pedindo ao usuário para digitar um número inteiro.
     scanf("%d", &x); //função que lê a entrada do usuário e armazena o valor digitado na variável x. O & é usado para passar o endereço da variável.
     printf("Olá, Mundo! Seu número, ó: %d", x); //função que imprime uma mensagem na tela, incluindo o valor da variável x usando o especificador de formato %d para inteiros.
+
+    // Declaração e inicialização de variáveis:
+    int num;
+
+    int num2 = 5;
+
+    float num3;
+
+    char caractere;
+
+    num = 10;
+
+    num3 = 2.5;
+
+    caractere = 'a';
+
     return 0; //indica que o programa terminou com sucesso.
 }
