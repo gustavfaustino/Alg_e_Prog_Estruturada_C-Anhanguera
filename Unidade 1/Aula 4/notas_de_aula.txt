@@ -1,0 +1,15 @@
+Operadores aritméticos, relacionais e lógicos.
+
+Todos os operadores podem ser usados ao mesmo tempo, mas tem uma ORDEM:
+segue nessa ordem númerica e na ordem da esquerda pra direita.
+1 - ()
+2 - ++ / -- (incrementais)
+3 - * / '/' / % / + / - (aritméticos)
+3 - < / > / == / != (relacionais) 
+4 - && / || / ! (lógicos)
+
+Operadores unários utilizam uma unica variavel, os incrementais:
+
+++x = soma +1 à x ANTES de utilizar
+x++ = soma +1 à x DEPOIS de utilizar
+--x e x-- faz o mesmo mas ao contrário.
