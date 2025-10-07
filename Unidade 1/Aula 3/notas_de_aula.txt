@@ -1,0 +1,27 @@
+Variáveis são definidas como uma localização temporária na memória, ond eum valor pode ser armazenado e utilizado em um programa.
+
+a localização é identificada por meio de endereços de memória.
+
+na imagem de exemplo: scanf("%d", &A) onde 'A' será armazenado no endereço da var A ( posição #10 ) na memória.
+o usuário digita 20 por exemplo, o '20' vai pra posição 10 na var. Essa declaração ocupa 4 bytes reservados na memória! (temporária, durante execução somente. Exceção em bancos de dados e dados permanentes). Cada byte tem um endereço e cada tipo tem um tamanho - óbvio -, por exemplo, int = 4b, um char = 1b e por ai vai.
+
+var é definido por = < tipo > < identificador >
+exemplo: int numero.
+tipos SEMPRE começam com LETRAS.
+indentificadores SEMPRE começam com LETRAS, e depois podem ter digitos ou _.
+Exemplo: CORRETO > Num_1; INCORRETO: 1_Numero
+
+adendo: para char de 1 caracter, utiliza ' aspas simples. para mais de uma utiliza " aspas duplas.
+
+-----
+
+Constantes são vars mas são imutaveis, constantes.
+
+Em C, temos duas maneiras de cria uma const:
+
+- #define <nome> <valor>
+
+- const <tipo> <nome>
+
+nome tem mesma regra que indentificadores
+acho que seja bom pra juros, valores de itens em estoque e coisas assim
