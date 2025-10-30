@@ -1,0 +1,66 @@
+Aula de condicionais, if-else e switch case
+
+ESTRUTURA IF-ELSE
+if - se
+else - então
+
+ESTRUTURA ENCADEADA
+if-else dentro de if-else
+
+if()
+{
+    if(){
+
+    }else{
+
+    }
+}
+else{
+
+}
+
+só executa 1 caso somente, né.
+
+ESTRUTURA ANINHADA
+
+ai é if-else dentro de else, dentro de else, dentro de else...
+if(num<10){
+    menorquedez
+    else{
+        if(num<100){
+            menorquecem
+        }
+        else{
+            ...
+        }
+    }
+}
+
+ANINHADA E IF-ELSE-IF
+
+if{
+    caso 1
+}else if{
+    caso 2
+}else{
+    ultimo caso
+}
+
+ESTRUTURA SWITCH case
+
+é condicional mas avalia sucessivamente o valor em relação a uma lista de opções, ints ou car, enfim.
+
+switch(var)
+{
+    case 1:
+    // algo
+    break;
+
+    case 2:
+    // algo 2
+
+    ...
+
+    default:
+    // algo final, caso nenhuma valha
+}
