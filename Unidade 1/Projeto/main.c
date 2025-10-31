@@ -24,8 +24,8 @@ int main(void)
 	// Configura o idioma e codificação do programa para português do Brasil, permitindo exibir acentuação corretamente.
 
 	int num_1, num_2, num_3; // Armazenam os três números inteiros informados pelo usuário
-	short int escolha;		 // Guarda a opção de operação escolhida no menu
-
+	short int escolha;	 // Guarda a opção de operação escolhida no menu
+	
 	// Função que realiza a soma de três números inteiros
 	int soma_3(int num1, int num2, int num3)
 	{
@@ -92,7 +92,7 @@ int main(void)
 	}
 
 	printf("Mais informações:\n");
-	
+
 	// Verifica se o primeiro número é maior que o segundo
 	if (num_1 > num_2)
 	{
