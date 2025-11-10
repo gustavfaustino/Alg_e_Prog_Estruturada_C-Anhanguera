@@ -1,0 +1,10 @@
+ eu não preciso preencher tudo do 'for'
+ posso fazer por exemplo
+
+```for (int i = 0; i < 10;)``` deixando vazio, ou até (int i = 0; ; ), deixando vazio o teste também
+
+Posso usar também virgula no 'for'.
+
+for( i = 0, j = 100; i < j; i++, j-- )
+
+colocando varias instruções, como definir duas variaveis no mesmo for.
