@@ -1,0 +1,19 @@
+na aula de hoje vimos break, continue, goto, enfim, mais sobre laços de repetição.
+
+CONTROLE DE REPETIÇÃO.
+
+break > encerra fluxo total.
+continue > interrompe APENAS a repetição corrente, e segue pra proxima se ouver.
+goto > salto condicional para um local especifico, um destino (palavra-chave) ou rotulo.
+
+10. destino;
+
+30. goto destino;
+
+ai vc vai da linha 30, por ex, pra linha 10 que é onde está o destino
+o destino pode ser pra frente ou pra trás mas deve estar na mesma função!
+
+- ATENÇÃO:
+goto não é necessaria em programas, de acorod com o teorema da prog. estruturad
+o goto pode tornar o codigo complexo, e dar problemas como: loops infinito, saidas inesperadas e codigo propenso a erros.
+
