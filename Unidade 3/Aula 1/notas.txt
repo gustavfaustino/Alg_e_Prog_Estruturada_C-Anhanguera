@@ -1,0 +1,68 @@
+VETORES
+
+pq?
+imagine um programa para armazenar notas, nomes, medias, nomes dos pais, faltas e muito mais.
+- pensa na qnt de 'int' pras faltas
+- quantos char para os nomes?
+- quantos floats pro resto?
+
+oq são?
+O vetor é uma serie de vars indexadas que podem ser acessadas por meio d eum indice inteiro.
+- por ex.: vetor[5]
+
+Um vetor só guarda vars do mesmo tipo
+
+Declaração:
+tipo nome_vetor[tamanho]
+
+int lista[5];
+
+char nome[16] = {‘J’,’o’,’a’,’o’};
+
+char sobrenome[31] = “Alberto Gomes”;
+
+char frase[101] = {“Disciplina de Algoritmos”};
+
+```
+char nome[16];
+
+printf("\n Digite um nome:");
+
+scanf("%s", nome);
+
+printf("\n Nome digitado: %s", nome);
+```
+É importante observar que, nesse caso, o operador "&" não é obrigatório na função scanf().
+
+dica: uma string é um vetor de char
+
+int vetor [10]; > começa vazio, 10 'lixos de memoria' (temps)
+int v[3] = {5,10,15} > os 3 valores
+int v[] = {5,10,15} > aqui vc pode pq já está dando valores para cada alocação do vetor, o compilador já entende que é tamanho 3
+int v[10] = {5,10,15} > preenche 3 e o resta vira 0
+int v[] > NÃO PODE, causa erro de compilação!
+
+função fgets(destino, tamanho, fluxo);
+
+fgets permite armazenar frases e chars complexos (+1 palavra) dentro de um VETOR
+se fosse utilizado o scnaf() ele daria erro por causa do espaço em branco.
+
+destino > nome d astring para armazenar
+tamanho > mesmo tamanho para a string (ex.: frase[101 > tamanho = 101])
+fluxo >  origem, no caso por padrão é o teclado então: stdin.
+
+fflush(stdin) permite a limpeza do scan antes de executar o fgets():
+```
+char frase[101];
+
+printf("\n Digite uma frase:");
+
+fflush(stdin);
+
+fgets(frase, 101, stdin);
+
+printf("\n Frase digitada: %s", frase);
+```
+
+---
+
